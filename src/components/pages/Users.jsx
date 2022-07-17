@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { useLocation } from "react-router-dom";
 
 import { SearchInput } from "../molecules/SearchInput";
-import { UserCard } from "../organisms/User/UserCard";
+import { UserCard } from "../organisms/user/UserCard";
 
 const users = [...Array(10).keys()].map((val) => {
   return {
